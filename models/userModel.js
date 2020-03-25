@@ -5,6 +5,7 @@ var userSchema = new Schema({
     googleId: String,
     username: String,
     mailId: String,
+    picture: String,
     code: String
     
 

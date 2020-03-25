@@ -26,7 +26,9 @@
     "react-stonecutter": "^0.3.10",
     "reactstrap": "^8.4.1",
     "semantic-ui-react": "^0.88.2",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "http-proxy-middleware": "^1.0.3"
+
   },
   "scripts": {
     "start": "react-scripts start",
@@ -49,5 +51,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3005"
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.3"
+  }
 }

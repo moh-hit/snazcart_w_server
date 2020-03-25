@@ -21,13 +21,16 @@ const darkTheme = {
     props.fetch_user()
  },[])
   return (
-    <ThemeProvider theme={darkTheme}>
-     
+     <>
       <Navigationbar />
-      <CategoryBar />
-      <Routes />
-      <Footer />
-      </ThemeProvider>
+      {
+        // <CategoryBar />
+        // <Routes />
+        // <Footer />
+
+      }
+
+  </>
   );
 }
 

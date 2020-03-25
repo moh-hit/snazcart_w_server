@@ -29,7 +29,7 @@ class CategoryBar extends React.Component {
 }
 
   callBackendAPI = async () => {
-    const response = await fetch('/categories')
+    const response = await fetch('http://localhost:3005/categories')
   
     const body = await response.json();
     console.log(body)
