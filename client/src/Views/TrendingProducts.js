@@ -46,7 +46,7 @@ class TrendingProducts extends Component {
         price: "1574",
         name: "Men Gray Sneakers"
       }
-      
+
     ];
     var all_trending = trending_products.map(products => {
       return (
@@ -60,7 +60,7 @@ class TrendingProducts extends Component {
 
     return (
       <div className="container-custom">
-        <SectionTitle title="Trendinggg Products" />
+        <SectionTitle title="Trending Products" />
         <div className="row justify-content-between">{all_trending}</div>
       </div>
     );

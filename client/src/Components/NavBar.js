@@ -12,7 +12,6 @@ import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import { connect } from "react-redux";
 import { setInStorage, getFromStorage } from "../utils/storage";
-import axios from "axios";
 
 const useStyles = makeStyles(theme => ({
   modal: {
@@ -222,6 +221,7 @@ const NavigationBar = props => {
           });
           userdata.name = inEmail;
           userdata.loggedIn = true;
+
           setInEmail('');
           setInPassword('');
         }else{
@@ -269,7 +269,7 @@ const NavigationBar = props => {
   let account;
   if (!userdata.loggedIn) {
     account = <AccountCircleOutlinedIcon />;
-  } else {
+  } else if(userdata.picture != "") {
     account = (
       <img
         width="25"
@@ -278,6 +278,9 @@ const NavigationBar = props => {
         src={userdata.picture}
       />
     );
+  }
+  else{
+    account = <AccountCircleOutlinedIcon />;
   }
 
   return (
