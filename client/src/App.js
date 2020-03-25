@@ -23,12 +23,11 @@ const darkTheme = {
   return (
      <>
       <Navigationbar />
-      {
-        // <CategoryBar />
-        // <Routes />
-        // <Footer />
+    
+        <CategoryBar />
+         <Routes />
+         <Footer />
 
-      }
 
   </>
   );
