@@ -8,13 +8,7 @@ import "./assets/css/style.js";
 import { connect } from "react-redux";
 import { fetchUserAction } from "./actions/myaction";
 
-import { ThemeProvider } from "styled-components";
-const darkTheme = {
-  body: "#363537",
-  text: "#FAFAFA",
-  toggleBorder: "#6B8096",
-  gradient: "linear-gradient(#091236, #1E215D)"
-};
+
 
 function App(props) {
   useEffect(() => {

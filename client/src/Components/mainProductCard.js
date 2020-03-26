@@ -11,16 +11,17 @@ import StarBorderOutlinedIcon from "@material-ui/icons/StarBorderOutlined";
 
 const useStyles = makeStyles({
   root: {
-    width: 200,
+    width: 230,
     maxWidth: 345,
-    borderRadius: 4
+    borderRadius: 4,
+    padding: 10
   },
   media: {
     height: 150
   }
 });
 
-export default function TrendingProductsCard(props) {
+export default function MainProductsCard(props) {
   const classes = useStyles();
 
   return (
@@ -55,14 +56,7 @@ export default function TrendingProductsCard(props) {
             </div>
           </div>
         </CardContent>
-        <div className="d-flex py-2 justify-content-between">
-        <Button size="small" variant="outlined" color="secondary">
-          Wishlist
-        </Button>
-        <Button size="small" variant="contained" color="secondary" >
-        Add To Cart
-        </Button>
-        </div>
+      
       </CardActionArea>
 
 

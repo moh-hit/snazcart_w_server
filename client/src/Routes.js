@@ -10,17 +10,20 @@ import BagsandWallets from "./Views/Category/BagsandWallets"
 // import HomeandDecor from "./Views/Category/HomeandDecor"
 // import More from "./Views/Category/More"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
+import Products from './Views/Pages/Products'
 
 
 
 export default function Routes() {
     return (
-  
+
         <Router>
           <main>
             <Route exact path="/" exact component={Home} />
-            <Route exact path="/Accessories" component={Accessories} />
+            <Route exact path="/products" component={Products} />
+
+            <Route exact path="/products/Accessories" component={Accessories} />
+
             <Route path="/Category/BagsandWallets" component={BagsandWallets} />
             {/* <Route path="/Category/CakesandBakes" component={CakesandBakes} />
             <Route path="/Category/Clothing" component={Clothing} />
@@ -30,6 +33,6 @@ export default function Routes() {
             <Route path="/Category/More" component={More} /> */}
           </main>
         </Router>
-       
+
     );
   }
