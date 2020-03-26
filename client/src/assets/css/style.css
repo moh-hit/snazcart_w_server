@@ -100,7 +100,7 @@ h5{
   transition: all 0.5s;
   padding: 2px 0;
   background: #fff;
-  
+
   margin-top: 60px;
   position: relative;
 }
@@ -1175,7 +1175,7 @@ section {
   font-weight: 400;
   color: #fff;
 }
-/*   
+/*
    .footer-newsletter form {
 	background: #fff;
 	position: relative;
@@ -1662,7 +1662,7 @@ button {
 	border: 0;
 	background-color: rgba(255,255,255,0.25);
 	padding: 20px;
-	
+
   }
 
  .rectangle::placeholder {
@@ -1681,7 +1681,7 @@ button {
     padding-right: 20px;
 	height: 600px;
   width: 640px;
-  object-fit: cover;  
+  object-fit: cover;
   }
 
   .gallery-img2{
@@ -1695,8 +1695,8 @@ button {
 padding-left: 10px;
 height: 200px;
   width: 100%;
-  object-fit: cover;  
- 
+  object-fit: cover;
+
   }
 
 
@@ -1705,8 +1705,8 @@ height: 200px;
     padding-right: 10px;
 	height: 200px;
   width: 100%;
-  object-fit: cover; 
-	
+  object-fit: cover;
+
   }
 
 .gallery-img5{
@@ -1714,7 +1714,7 @@ height: 200px;
 
   height: 400px;
   width: 100%;
-  object-fit: cover;  
+  object-fit: cover;
 }
 
   .col-6{
@@ -1738,7 +1738,7 @@ height: 200px;
   }
   @media(min-width: 1281px){
 .popupvideo{
-height: 600px; 
+height: 600px;
 width: 1000px !important;
 margin-top: 15% !important;
     margin-left: 30% !important;
@@ -1747,7 +1747,7 @@ margin-top: 15% !important;
 
 @media(max-width: 481px){
   .popupvideo{
-  height: 200px; 
+  height: 200px;
   width:  200px !important;
   margin-top: 25% !important;
       margin-left: 30% !important;
@@ -1823,3 +1823,129 @@ span{
 }
 
 .cursor-pointer {cursor: pointer;}
+
+.MuiButton-containedSecondary {
+  background-color: #F44248 !important;
+  }
+
+.MuiButton-label{
+  font-size: 10px !important;
+
+}
+
+.breadCrumb{
+  font-size: 14px;
+  width: 100%;
+}
+
+.productTitle{
+  font-size: 16px;
+}
+
+
+
+	.MuiSelect-root{
+    border-bottom: 0px solid #000 !important;
+  }
+
+  .MuiFilledInput-input {
+    padding: 5px 5px 5px !important;
+    font-size: 14px !important;
+}
+
+.MuiFilledInput-root {
+     background-color: #fff !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+
+.promotionalStrip{
+  background-color: #F44248;
+}
+.promotionalStrip h6{
+  color: #fff;
+}
+
+.filterSidebar{
+  min-width: 250px;
+  max-width: 250px;
+  -webkit-box-flex: 0!important;
+    -ms-flex-positive: 0!important;
+    flex-grow: 0!important;
+}
+
+.header-container {
+    position: relative;
+    border-right: none!important;
+    padding-top: 0;
+}
+.vertical-filters-filters {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e9e9ed;
+    position: relative;
+}
+
+.search-leftContainer ul {
+    margin: 0;
+}
+
+.search-leftContainer li {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.gender-label {
+    cursor: pointer;
+    color: #282c3f;
+    font-weight: 500;
+}
+.common-customRadio {
+    position: relative;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.MuiFormControlLabel-root{
+  margin-bottom: 0px !important;
+
+}
+
+.MuiIconButton-root {
+  padding: 0px !important;
+}
+
+.MuiRadio-root{
+  color: #F44248 !important;
+}
+
+.genderFilter{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e9e9ed;
+}
+
+.makeStyles-formControl-19 {
+    margin: 0px !important;
+}
+
+/* .MuiFormGroup-root{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+} */
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: #F44248 !important;
+}
+
+#colorFilter, #priceFilter{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e9e9ed;
+}
+
+.productsContainer{
+  padding: 10px;
+  border-left: 1px solid #e9e9ed;
+  border-top: 1px solid #e9e9ed;
+
+}
