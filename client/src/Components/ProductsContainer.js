@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
-import MainProductsCard from "../Components/mainProductCard";
+import React, { lazy, Suspense } from "react";
+// import MainProductsCard from "../Components/mainProductCard";
 import { makeStyles } from '@material-ui/core/styles';
-import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
-import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import SkeletonCard from '../Components/SkeletonCard'
+
+const MainProductsCard = lazy(() => import("../Components/mainProductCard"));
 
 
 const useStyles = makeStyles(theme => ({
@@ -132,11 +133,15 @@ const useStyles = makeStyles(theme => ({
           ];
         var all_trending = trending_products.map(products => {
             return (
+                <Suspense fallback={<SkeletonCard />}>
+
               <MainProductsCard
                 source={products.image}
                 price={products.price}
                 name={products.name}
               />
+                  </Suspense>
+
             );
           });
 
@@ -159,7 +164,7 @@ const useStyles = makeStyles(theme => ({
              onChange={handleChange}
            >
              <MenuItem value="Sort By">
-               <em>Sort By</em>
+               <em>None</em>
              </MenuItem>
              <MenuItem value={10}>Ten</MenuItem>
              <MenuItem value={20}>Twenty</MenuItem>

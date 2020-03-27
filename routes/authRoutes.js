@@ -36,7 +36,7 @@ app.get('/api/current_users', (req,res)=>{
 
 app.get('/api/logout',(req,res)=>{
     req.logout();
-    res.redirect('http://localhost:3000/')
+    res.redirect('http://localhost:3000/products')
 });
 }
 

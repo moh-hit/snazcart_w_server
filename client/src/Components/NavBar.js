@@ -314,7 +314,7 @@ const NavigationBar = props => {
                   {account} {userdata.name}{" "}
                 </a>
               ) : (
-                <a onClick={handleClick2}>
+                <a onClick={handleClick}>
                   {" "}
                   {account} {userdata.name}{" "}
                 </a>
