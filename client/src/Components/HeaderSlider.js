@@ -10,9 +10,9 @@ function ControlledCarousel() {
     };
 
     const sources = [
-        "https://storage.cloud.google.com/snazcartweb/slider/slider_1.webp",
-        "https://storage.cloud.google.com/snazcartweb/slider/slider_2.webp",
-        "https://storage.cloud.google.com/snazcartweb/slider/slider_3.webp"
+        "https://storage.cloud.google.com/snazcartweb/slider/slider_1.jpg",
+        "https://storage.cloud.google.com/snazcartweb/slider/slider_2.jpg",
+        "https://storage.cloud.google.com/snazcartweb/slider/slider_3.jpg"
       ];
       const slides = sources.map(source => (
         <Carousel.Item>
