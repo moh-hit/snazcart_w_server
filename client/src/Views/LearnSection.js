@@ -68,7 +68,7 @@ class LearnSection extends Component {
     return (
       <div className="container-custom section-padding my-5">
         <SectionTitle title="Learn & Make" />
-        <div className="d-flex justify-content-between py-2">{all_trending}</div>
+        <div className="d-flex justify-content-between">{all_trending}</div>
       </div>
     );
   }

@@ -11,10 +11,10 @@ import StarBorderOutlinedIcon from "@material-ui/icons/StarBorderOutlined";
 
 const useStyles = makeStyles({
   root: {
-    width: 230,
-    maxWidth: 345,
+    width: "18%",
+    // maxWidth: 345,
     borderRadius: 4,
-    padding: 10
+    margin: 10
   },
   media: {
     height: 150
@@ -25,7 +25,6 @@ export default function MainProductsCard(props) {
   const classes = useStyles();
 
   return (
-    <a href="/products">
 
 
     <Card className={classes.root} >
@@ -61,6 +60,5 @@ export default function MainProductsCard(props) {
 
 
     </Card>
-  </a>
   );
 }

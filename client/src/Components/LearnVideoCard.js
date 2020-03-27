@@ -11,9 +11,10 @@ import ReactPlayer from 'react-player'
 
 const useStyles = makeStyles({
   root: {
-    width: 250,
-    maxWidth: 345,
-    borderRadius: 4
+    width: "16%",
+    // maxWidth: 345,
+    borderRadius: 4,
+
   },
   media: {
     height: 150

@@ -1872,6 +1872,7 @@ span{
   -webkit-box-flex: 0!important;
     -ms-flex-positive: 0!important;
     flex-grow: 0!important;
+    position: sticky !important;
 }
 
 .header-container {
@@ -1944,6 +1945,7 @@ span{
 }
 
 .productsContainer{
+  width: 100%;
   padding: 10px;
   border-left: 1px solid #e9e9ed;
   border-top: 1px solid #e9e9ed;
@@ -1966,6 +1968,10 @@ span{
 }
 
 .filterSortArea{
-  padding-bottom: 15px !important;
-  border-bottom: 1px solid #e9e9ed;
+  margin-bottom: 15px !important;
+}
+
+.allProducts{
+  border-top: 1px solid #e9e9ed;
+margin: 5px;
 }
