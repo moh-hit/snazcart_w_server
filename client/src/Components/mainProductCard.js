@@ -11,7 +11,7 @@ import StarBorderOutlinedIcon from "@material-ui/icons/StarBorderOutlined";
 
 const useStyles = makeStyles({
   root: {
-    width: "18%",
+    width: "17.5%",
     // maxWidth: 345,
     borderRadius: 4,
     margin: 10
