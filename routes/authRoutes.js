@@ -16,7 +16,7 @@ app.get(
     passport.authenticate('google'),
     (req, res) => {
 
-        
+        console.log("IN CALLBACK REQ")
         // var token = req.user.token;
         // console.log(req);
         // res.status(201).json(req.user);

@@ -29,7 +29,8 @@ passport.use(
         User.findOne({googleId: profile.id})
         .then((existingUser)=>{
             if(existingUser){
-                done(null,existingUser)
+                done(null,existingUser);
+                console.log("ALREADY EXIST")
             }
             else{
                 const d = profile._json;
@@ -37,10 +38,12 @@ passport.use(
                 new User({googleId: d.sub,username: d.name,mailId: d.email,picture: d.picture}).save()
                 .then(()=>{
                     done(null,user)
-                })
+                });
+                console.log("DOESNT EXIST")
 
             }
-        })
+        });
+        console.log("OUT OF AUTH")
 
     }
     )

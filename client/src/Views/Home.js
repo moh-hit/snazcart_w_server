@@ -18,10 +18,10 @@ class Home extends React.Component {
         <LatestPromo />
         
         <TrendingProducts />
-        <BannerImage source="https://storage.cloud.google.com/snazcartweb/promo%20slide/promo_slide_1.webp"/>
+        <BannerImage source="https://storage.cloud.google.com/snazcartweb/promo%20slide/promo_slide_1.jpg"/>
         <GridGallery />
         <LearnSection />
-        <BannerImage source="https://storage.cloud.google.com/snazcartweb/promo%20slide/promo_slide_2.webp"/>
+        <BannerImage source="https://storage.cloud.google.com/snazcartweb/promo%20slide/promo_slide_2.jpg"/>
 
       </>
     );

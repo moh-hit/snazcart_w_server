@@ -5,8 +5,10 @@ const Category = require('../models/category')
 // Get all subscribers
 router.get('/', async(req, res) => {
     try {
+        console.log("SEARCHING FOR CATE")
         const categories = await Category.find();
         res.json(categories)
+        console.log("categ" + categories)
         res.send()
       } catch (err) {
         res.status(500).json({ message: err.message })

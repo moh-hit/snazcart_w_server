@@ -45,6 +45,13 @@ class LearnSection extends Component {
         author: "Fatima Delgadillo",
         name: "Men Grey Sweatshirt",
         views: "265"
+      },
+      {
+        image:
+          "https://www.unheap.com/wp-content/uploads/jQuery-Video-Extend.png",
+        author: "Fatima Delgadillo",
+        name: "Men Grey Sweatshirt",
+        views: "265"
       }
     ];
     var all_trending = trending_products.map(learnvideo => {
@@ -61,7 +68,7 @@ class LearnSection extends Component {
     return (
       <div className="container-custom section-padding my-5">
         <SectionTitle title="Learn & Make" />
-        <div className="row justify-content-between py-2">{all_trending}</div>
+        <div className="d-flex justify-content-between py-2">{all_trending}</div>
       </div>
     );
   }

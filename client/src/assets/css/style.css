@@ -1405,7 +1405,7 @@ section {
 .service-img-icon {
   background: #000;
   height: 200px;
-  width: 300px;
+  width: 100%;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;

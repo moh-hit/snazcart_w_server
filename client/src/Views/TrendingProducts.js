@@ -61,7 +61,7 @@ class TrendingProducts extends Component {
     return (
       <div className="container-custom">
         <SectionTitle title="Trending Products" />
-        <div className="row justify-content-between">{all_trending}</div>
+        <div className="d-flex justify-content-between">{all_trending}</div>
       </div>
     );
   }

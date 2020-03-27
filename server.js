@@ -16,7 +16,7 @@ mongoose.connect(keys.mongoURI, { useNewUrlParser: true, useUnifiedTopology: tru
   console.log('CONNECTED TO DB SNAZ');
 });
 app.use(bodyParser());
-app.use('/categories', categoriesRouter);
+
 
 require('./routes/signin')(app);
 
@@ -30,7 +30,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 require('./routes/authRoutes')(app);
-
+app.use('/categories', categoriesRouter);
 app.listen(PORT, () => {
   console.log('SERVER RUNNING ON PORT ' + PORT);
 });
