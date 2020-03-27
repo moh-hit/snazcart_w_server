@@ -1563,7 +1563,7 @@ button {
 
 
 .header-slider {
-  height: 480px;
+  /* height: 480px; */
   z-index: -1;
 }
 
@@ -1948,4 +1948,24 @@ span{
   border-left: 1px solid #e9e9ed;
   border-top: 1px solid #e9e9ed;
 
+}
+
+.productFilter{
+  font-size: 10px !important;
+}
+
+.productFilter .MuiSelect-selectMenu{
+  font-size: 12px !important;
+}
+
+
+ .MuiInputBase-input {
+  padding: 2px !important;
+  padding-right: 24px !important;
+
+}
+
+.filterSortArea{
+  padding-bottom: 15px !important;
+  border-bottom: 1px solid #e9e9ed;
 }
