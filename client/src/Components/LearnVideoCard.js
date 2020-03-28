@@ -17,7 +17,7 @@ const useStyles = makeStyles({
 
   },
   media: {
-    height: 150
+    height: 200
   }
 });
 
@@ -29,13 +29,13 @@ export default function LearnVideoCard(props) {
   return (
     <Card className={classes.root}>
     <CardActionArea>
-    <ReactPlayer url='https://snazcartassets.s3.ap-south-1.amazonaws.com/web/videos/1.mp4'  width="100%" height="250" controls="true" />
+    <ReactPlayer className="videoPlayer" url='https://snazcartassets.s3.ap-south-1.amazonaws.com/web/videos/1.mp4'  width="100%" controls="false" />
       <CardContent>
-        <div style={{ height: 30 }}>
+        {/* <div style={{ height: 30 }}>
           <Typography gutterBottom variant="subtitle2" component="subtitle1">
             {props.name}
           </Typography>
-        </div>
+        </div> */}
 
         <div className="row px-3 justify-content-between">
           <Typography gutterBottom variant="caption" component="a">

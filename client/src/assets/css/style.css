@@ -1831,8 +1831,12 @@ span {
   width: 100%;
 }
 
+.videoPlayer{
+  height: 200px !important; 
+}
+
 .productTitle {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .MuiSelect-root {
@@ -1855,6 +1859,7 @@ span {
 }
 .promotionalStrip h6 {
   color: #fff;
+  font-size: 12px;
 }
 
 .filterSidebar {
@@ -1979,3 +1984,13 @@ span {
   overflow-x: inherit;
   width: 100%;
 }
+
+.MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.54);
+  padding: 0;
+  font-size: 14px !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.00938em;}
+
