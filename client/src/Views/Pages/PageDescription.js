@@ -8,7 +8,13 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
-import Button from '@material-ui/core/Button';
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import Button from "@material-ui/core/Button";
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import PinterestIcon from "@material-ui/icons/Pinterest";
+import SellerCard from "../../Components/SellerCard";
 
 const useStyles = makeStyles({
   table: {
@@ -38,27 +44,44 @@ export default function PageDescription() {
         </a>
       </div>
       <div className="d-flex justify-content-around col-lg-12 productDescArea">
-          <div className="col-lg-6 d-flex justify-content-between  allImageAre_productDesc">
-              <div className="imgThumbnail">
-              <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10556648/2019/10/31/bd6b8e02-59c2-442f-a85c-5fdb7177399f1572514970757-Allen-Solly-Men-Sweatshirts-3601572514969206-1.jpg"></img>
-              <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10556648/2019/10/31/bd6b8e02-59c2-442f-a85c-5fdb7177399f1572514970757-Allen-Solly-Men-Sweatshirts-3601572514969206-1.jpg"></img>
-              <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10556648/2019/10/31/bd6b8e02-59c2-442f-a85c-5fdb7177399f1572514970757-Allen-Solly-Men-Sweatshirts-3601572514969206-1.jpg"></img>
-              <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10556648/2019/10/31/bd6b8e02-59c2-442f-a85c-5fdb7177399f1572514970757-Allen-Solly-Men-Sweatshirts-3601572514969206-1.jpg"></img>
-              </div>
-        <div className=" productImageArea_productDesc">
-          <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10556648/2019/10/31/bd6b8e02-59c2-442f-a85c-5fdb7177399f1572514970757-Allen-Solly-Men-Sweatshirts-3601572514969206-1.jpg"></img>
-        </div>
+        <div className="col-lg-6 d-flex justify-content-between  allImageAre_productDesc">
+          <div className="imgThumbnail">
+            <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10556648/2019/10/31/bd6b8e02-59c2-442f-a85c-5fdb7177399f1572514970757-Allen-Solly-Men-Sweatshirts-3601572514969206-1.jpg"></img>
+            <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10556648/2019/10/31/bd6b8e02-59c2-442f-a85c-5fdb7177399f1572514970757-Allen-Solly-Men-Sweatshirts-3601572514969206-1.jpg"></img>
+            <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10556648/2019/10/31/bd6b8e02-59c2-442f-a85c-5fdb7177399f1572514970757-Allen-Solly-Men-Sweatshirts-3601572514969206-1.jpg"></img>
+            <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10556648/2019/10/31/bd6b8e02-59c2-442f-a85c-5fdb7177399f1572514970757-Allen-Solly-Men-Sweatshirts-3601572514969206-1.jpg"></img>
+          </div>
+          <div className=" productImageArea_productDesc">
+            <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10556648/2019/10/31/bd6b8e02-59c2-442f-a85c-5fdb7177399f1572514970757-Allen-Solly-Men-Sweatshirts-3601572514969206-1.jpg"></img>
+          </div>
         </div>
         <div className="col-lg-6 productDetails_productDesc">
           <div className="basicDetails_productDesc">
-            <h2 className="productName">
+            <h4 className="productName">
               Men Navy Blue Solid Hooded Sweatshirt
-            </h2>
-            
-                <h3 className="productPrice">₹ 999</h3>
-            <p>Inclusive of all taxes</p>
-            <button className="buyButton">Buy Now</button>
-
+            </h4>
+            <h3 className="productPrice">
+              ₹ 999<span>Inclusive of all taxes</span>
+            </h3>
+            <button className="favButton">
+              <FavoriteBorderIcon style={{ color: "#ed3c0d" }} />
+            </button>
+            <button className="buyButton"> Buy Now </button>
+            <div className="d-flex justify-content-start socialIcons_productDesc">
+              <button className="socialButton">
+                <WhatsAppIcon />
+              </button>
+              <button className="socialButton">
+                <FacebookIcon />
+              </button>
+              <button className="socialButton">
+                <TwitterIcon />
+              </button>
+              <button className="socialButton">
+                <PinterestIcon />
+              </button>
+            </div>
+            <SellerCard />
           </div>
           <div className="specificDetails_productDesc">
             <h4>
@@ -76,32 +99,7 @@ export default function PageDescription() {
               <h4>Size & Fit</h4>
               <p>The model (height 6') is wearing a size M</p>
             </div>
-            <TableContainer component={Paper}>
-              <Table className={classes.table} aria-label="simple table">
-                <TableHead>
-                  <TableRow>
-                    <TableCell>Dessert (100g serving)</TableCell>
-                    <TableCell align="right">Calories</TableCell>
-                    <TableCell align="right">Fat&nbsp;(g)</TableCell>
-                    <TableCell align="right">Carbs&nbsp;(g)</TableCell>
-                    <TableCell align="right">Protein&nbsp;(g)</TableCell>
-                  </TableRow>
-                </TableHead>
-                <TableBody>
-                  {rows.map(row => (
-                    <TableRow key={row.name}>
-                      <TableCell component="th" scope="row">
-                        {row.name}
-                      </TableCell>
-                      <TableCell align="right">{row.calories}</TableCell>
-                      <TableCell align="right">{row.fat}</TableCell>
-                      <TableCell align="right">{row.carbs}</TableCell>
-                      <TableCell align="right">{row.protein}</TableCell>
-                    </TableRow>
-                  ))}
-                </TableBody>
-              </Table>
-            </TableContainer>
+         
           </div>
         </div>
       </div>
