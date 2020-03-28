@@ -11,18 +11,21 @@ import BagsandWallets from "./Views/Category/BagsandWallets"
 // import More from "./Views/Category/More"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Products from './Views/Pages/Products'
+import history from './history';
+import PageDescription from './Views/Pages/PageDescription'
 
 
 
 export default function Routes() {
     return (
 
-        <Router>
+        <Router history={history}>
           <main>
             <Route exact path="/" exact component={Home} />
             <Route exact path="/products" component={Products} />
 
             <Route exact path="/products/Accessories" component={Accessories} />
+            <Route exact path="/PageDescription" component={PageDescription} />
 
             <Route path="/Category/BagsandWallets" component={BagsandWallets} />
             {/* <Route path="/Category/CakesandBakes" component={CakesandBakes} />

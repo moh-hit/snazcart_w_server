@@ -8,6 +8,8 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import StarBorderOutlinedIcon from "@material-ui/icons/StarBorderOutlined";
+import History from "../history";
+
 
 const useStyles = makeStyles({
   root: {
@@ -26,8 +28,8 @@ export default function MainProductsCard(props) {
 
   return (
 
-
     <Card className={classes.root} >
+          <a href="/PageDescription">
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -58,6 +60,7 @@ export default function MainProductsCard(props) {
       
       </CardActionArea>
 
+      </a>
 
     </Card>
   );
