@@ -63,6 +63,7 @@ const FilterSideBar = props => {
             <FormControlLabel
               control={
                 <Checkbox
+                  size="small"
                   checked={red}
                   onChange={handleChangeCheckBox}
                   name="red"
@@ -73,6 +74,7 @@ const FilterSideBar = props => {
             <FormControlLabel
               control={
                 <Checkbox
+                  size="small"
                   checked={blue}
                   onChange={handleChangeCheckBox}
                   name="blue"
@@ -83,6 +85,7 @@ const FilterSideBar = props => {
             <FormControlLabel
               control={
                 <Checkbox
+                  size="small"
                   checked={green}
                   onChange={handleChangeCheckBox}
                   name="green"
@@ -90,6 +93,62 @@ const FilterSideBar = props => {
               }
               label="Green"
             />
+              <FormControlLabel
+              control={
+                <Checkbox
+                  size="small"
+                  checked={red}
+                  onChange={handleChangeCheckBox}
+                  name="red"
+                />
+              }
+              label="Red"
+            />
+            <FormControlLabel
+              control={
+                <Checkbox
+                  size="small"
+                  checked={blue}
+                  onChange={handleChangeCheckBox}
+                  name="blue"
+                />
+              }
+              label="Blue"
+            />
+            <FormControlLabel
+              control={
+                <Checkbox
+                  size="small"
+                  checked={green}
+                  onChange={handleChangeCheckBox}
+                  name="green"
+                />
+              }
+              label="Green"
+            />
+              <FormControlLabel
+              control={
+                <Checkbox
+                  size="small"
+                  checked={red}
+                  onChange={handleChangeCheckBox}
+                  name="red"
+                />
+              }
+              label="Red"
+            />
+            <FormControlLabel
+              control={
+                <Checkbox
+                  size="small"
+                  checked={blue}
+                  onChange={handleChangeCheckBox}
+                  name="blue"
+                />
+              }
+              label="Blue"
+            />
+          
           </FormGroup>
         </FormControl>
       </div>
@@ -99,9 +158,9 @@ const FilterSideBar = props => {
 
       <RadioGroup aria-label="price" name="price" value={value} onChange={handleChangeRadio}>
         <FormControlLabel value="100" control={<Radio size="small" />} label="100-500" />
-        <FormControlLabel value="" control={<Radio size="small" />} label="501-1000" />
-        <FormControlLabel value="" control={<Radio size="small" />} label="1001-2000" />
-        <FormControlLabel value="" control={<Radio size="small" />} label="2001+" />
+        <FormControlLabel value="501" control={<Radio size="small" />} label="501-1000" />
+        <FormControlLabel value="1001" control={<Radio size="small" />} label="1001-2000" />
+        <FormControlLabel value="2001" control={<Radio size="small" />} label="2001+" />
 
       </RadioGroup>
 </FormControl>

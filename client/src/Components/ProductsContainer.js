@@ -7,8 +7,7 @@ import Select from '@material-ui/core/Select';
 import SkeletonCard from '../Components/SkeletonCard'
 import InputLabel from '@material-ui/core/InputLabel';
 import FilterDropdown from '../Components/FilterDropdown'
-
-const MainProductsCard = lazy(() => import("../Components/mainProductCard"));
+import MainProductsCard from '../Components/mainProductCard';
 
 
 const useStyles = makeStyles(theme => ({
@@ -135,14 +134,12 @@ const useStyles = makeStyles(theme => ({
           ];
         var all_trending = trending_products.map(products => {
             return (
-                <Suspense fallback={<SkeletonCard />}>
 
               <MainProductsCard
                 source={products.image}
                 price={products.price}
                 name={products.name}
               />
-                  </Suspense>
 
             );
           });
@@ -170,7 +167,7 @@ const useStyles = makeStyles(theme => ({
    </div>
   
 </div>
-        <div className="row justify-content-start allProducts">{all_trending}</div>
+        <div className="allProducts">{all_trending}</div>
             </div>
         )
 }

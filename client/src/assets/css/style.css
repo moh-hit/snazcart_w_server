@@ -28,7 +28,7 @@ h6,
   font-family: "Roboto";
 }
 
-h5{
+h5 {
   font-size: 18px !important;
 }
 .container-latestproducts {
@@ -53,7 +53,7 @@ h5{
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #F44248;
+  background: #f44248;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -161,14 +161,14 @@ h5{
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #F44248;
+  color: #f44248;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
   font-size: 13px;
   font-weight: 500;
-  background: #F44248;
+  background: #f44248;
   color: #fff;
   border-radius: 5px;
   margin: 0 15px;
@@ -221,7 +221,7 @@ h5{
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active > a,
 .nav-menu .drop-down ul li:hover > a {
-  color: #F44248;
+  color: #f44248;
 }
 
 .nav-menu .drop-down > a:after {
@@ -301,7 +301,7 @@ h5{
 }
 
 .mobile-nav .get-started a {
-  background: #F44248;
+  background: #f44248;
   color: #fff;
   border-radius: 50px;
   margin: 15px;
@@ -417,7 +417,7 @@ h5{
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #F44248;
+  background: #f44248;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -532,7 +532,7 @@ section {
   display: block;
   width: 60px;
   height: 2px;
-  background: #F44248;
+  background: #f44248;
   bottom: 0;
   left: calc(50% - 30px);
 }
@@ -651,7 +651,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #F44248;
+  color: #f44248;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -696,7 +696,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #F44248;
+  color: #f44248;
   margin: 0 4px;
   font-size: 18px;
   line-height: 1;
@@ -716,7 +716,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #F44248;
+  background: #f44248;
   color: #fff;
 }
 
@@ -776,10 +776,10 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #F44248;
+  font-family: #f44248;
   font-size: 18px;
   font-weight: 600;
-  color: #F44248;
+  color: #f44248;
 }
 
 .faq .faq-list i {
@@ -796,7 +796,7 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  color: #F44248;
+  color: #f44248;
 }
 
 .faq .faq-list a.collapsed {
@@ -804,7 +804,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #F44248;
+  color: #f44248;
 }
 
 .faq .faq-list a.collapsed i::before {
@@ -878,7 +878,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #F44248;
+  color: #f44248;
 }
 
 .team .member .social i {
@@ -943,7 +943,7 @@ section {
 }
 
 .clients .owl-dot.active {
-  background-color: #F44248 !important;
+  background-color: #f44248 !important;
 }
 
 .container-nav {
@@ -969,8 +969,8 @@ section {
   # Contact Us
   --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #F44248;
-  border-bottom: 3px solid #F44248;
+  border-top: 3px solid #f44248;
+  border-bottom: 3px solid #f44248;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -979,7 +979,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #F44248;
+  color: #f44248;
   float: left;
   width: 44px;
   height: 44px;
@@ -1030,21 +1030,21 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #F44248;
+  background: #f44248;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #F44248;
+  background: #f44248;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #F44248;
-  border-bottom: 3px solid #F44248;
+  border-top: 3px solid #f44248;
+  border-bottom: 3px solid #f44248;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1116,7 +1116,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #F44248;
+  background: #f44248;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1199,7 +1199,7 @@ section {
   font-size: 16px;
   padding: 10px;
   background: #ffffff;
-  color: #F44248;
+  color: #f44248;
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -1277,13 +1277,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #F44248;
+  color: #f44248;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #F44248;
+  background: #f44248;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1312,7 +1312,7 @@ section {
 }
 
 #footer .credits a {
-  color: #F44248;
+  color: #f44248;
 }
 
 @media (max-width: 575px) {
@@ -1391,7 +1391,7 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #F44248;
+  background: #f44248;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -1561,7 +1561,6 @@ button {
   margin-bottom: 20px !important;
 }
 
-
 .header-slider {
   /* height: 480px; */
   z-index: -1;
@@ -1577,7 +1576,7 @@ button {
 
 .section-more {
   font-size: 10px;
-  color: #F44248 !important;
+  color: #f44248 !important;
   font-weight: 900 !important;
 }
 
@@ -1594,8 +1593,6 @@ button {
   bottom: 0px;
   padding-top: 0px !important;
 }
-
-
 
 .banner-image img {
   height: 90%;
@@ -1636,7 +1633,7 @@ button {
 }
 
 .count-me-in {
-	height: 38px;
+  height: 38px;
   padding: 10px;
   font-size: 13px;
   background: #fff;
@@ -1656,60 +1653,56 @@ button {
 }
 
 .rectangle {
-	height: 20px;
-	width: 335px;
-	border-radius: 4px;
-	border: 0;
-	background-color: rgba(255,255,255,0.25);
-	padding: 20px;
+  height: 20px;
+  width: 335px;
+  border-radius: 4px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 20px;
+}
 
-  }
+.rectangle::placeholder {
+  color: #fff;
+}
 
- .rectangle::placeholder {
-	  color: #fff;
-  }
+.rectangle:hover::placeholder {
+  color: #fff;
+}
 
-  .rectangle:hover::placeholder{
-	  color: #fff;
-  }
+a:hover {
+  cursor: pointer !important;
+}
 
-  a:hover{
-	cursor: pointer !important;
-  }
-
-  .gallery-img1{
-    padding-right: 20px;
-	height: 600px;
+.gallery-img1 {
+  padding-right: 20px;
+  height: 600px;
   width: 640px;
   object-fit: cover;
-  }
+}
 
-  .gallery-img2{
-    padding-right: 20px;
-    height: 600px;
-    width: 50%;
-    object-fit: cover;
-  }
+.gallery-img2 {
+  padding-right: 20px;
+  height: 600px;
+  width: 50%;
+  object-fit: cover;
+}
 
-  .gallery-img3{
-padding-left: 10px;
-height: 200px;
+.gallery-img3 {
+  padding-left: 10px;
+  height: 200px;
   width: 100%;
   object-fit: cover;
+}
 
-  }
-
-
-  .gallery-img4{
-    padding-left: 10px;
-    padding-right: 10px;
-	height: 200px;
+.gallery-img4 {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 200px;
   width: 100%;
   object-fit: cover;
+}
 
-  }
-
-.gallery-img5{
+.gallery-img5 {
   padding-top: 20px;
 
   height: 400px;
@@ -1717,88 +1710,87 @@ height: 200px;
   object-fit: cover;
 }
 
-  .col-6{
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-  }
+.col-6 {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
 
-  .MuiCardHeader-subheader{
-    font-size: 10px !important;
-    float: left;
-  }
+.MuiCardHeader-subheader {
+  font-size: 10px !important;
+  float: left;
+}
 
+.MuiCardHeader-title {
+  font-size: 10px !important;
+}
 
-  .MuiCardHeader-title{
-    font-size: 10px !important;
-  }
-
-  .MuiAvatar-root {
-    width: 25px !important;
-    height: 25px !important ;
-  }
-  @media(min-width: 1281px){
-.popupvideo{
-height: 600px;
-width: 1000px !important;
-margin-top: 15% !important;
+.MuiAvatar-root {
+  width: 25px !important;
+  height: 25px !important ;
+}
+@media (min-width: 1281px) {
+  .popupvideo {
+    height: 600px;
+    width: 1000px !important;
+    margin-top: 15% !important;
     margin-left: 30% !important;
   }
 }
 
-@media(max-width: 481px){
-  .popupvideo{
-  height: 200px;
-  width:  200px !important;
-  margin-top: 25% !important;
-      margin-left: 30% !important;
-    }
+@media (max-width: 481px) {
+  .popupvideo {
+    height: 200px;
+    width: 200px !important;
+    margin-top: 25% !important;
+    margin-left: 30% !important;
   }
+}
 
-.downloadtext{
+.downloadtext {
   padding-top: 10px;
   padding-right: 5px;
   font-size: 15px;
 }
 
-.location{
+.location {
   text-decoration: underline !important;
 }
 
-span{
+span {
   font-size: 15px !important;
   padding: 5px;
 }
 
-.footer-list-searches li a{
+.footer-list-searches li a {
   padding: 5px !important;
   font-size: 12px !important;
 }
 
-.MuiChip-sizeSmall{
+.MuiChip-sizeSmall {
   background-color: #ffffff !important;
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
 
-.login-sub{
+.login-sub {
   font-size: 12px;
-  color: #8E8E93;
+  color: #8e8e93;
 }
 
-.pass-forgot{
+.pass-forgot {
   font-size: 12px;
   color: #ff3b30;
   font-weight: 600;
 }
 
-.form-control{
-  background-color: #EFEFEF;
-  border: 1px solid #EFEFEF;
+.form-control {
+  background-color: #efefef;
+  border: 1px solid #efefef;
   font-size: 12px;
 }
 
-.btn-custom{
-  background-color: #F44248 !important;
+.btn-custom {
+  background-color: #f44248 !important;
   color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   font-size: 14px;
@@ -1806,172 +1798,184 @@ span{
   text-transform: uppercase;
   font-weight: 600;
 }
-.btn-custom:hover{
-  color: #fff
+.btn-custom:hover {
+  color: #fff;
 }
-.auth-logo{
+.auth-logo {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.form-control{
+.form-control {
   height: calc(2.25rem + 8px) !important;
 }
 
-.form-group{
+.form-group {
   margin-bottom: 8px;
 }
 
-.cursor-pointer {cursor: pointer;}
-
-.MuiButton-containedSecondary {
-  background-color: #F44248 !important;
-  }
-
-.MuiButton-label{
-  font-size: 10px !important;
-
+.cursor-pointer {
+  cursor: pointer;
 }
 
-.breadCrumb{
+.MuiButton-containedSecondary {
+  background-color: #f44248 !important;
+}
+
+.MuiButton-label {
+  font-size: 10px !important;
+}
+
+.breadCrumb {
   font-size: 14px;
   width: 100%;
 }
 
-.productTitle{
+.productTitle {
   font-size: 16px;
 }
 
+.MuiSelect-root {
+  border-bottom: 0px solid #000 !important;
+}
 
-
-	.MuiSelect-root{
-    border-bottom: 0px solid #000 !important;
-  }
-
-  .MuiFilledInput-input {
-    padding: 5px 5px 5px !important;
-    font-size: 14px !important;
+.MuiFilledInput-input {
+  padding: 5px 5px 5px !important;
+  font-size: 14px !important;
 }
 
 .MuiFilledInput-root {
-     background-color: #fff !important;
-    border-bottom-left-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
+  background-color: #fff !important;
+  border-bottom-left-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
 }
 
-.promotionalStrip{
-  background-color: #F44248;
+.promotionalStrip {
+  background-color: #f44248;
 }
-.promotionalStrip h6{
+.promotionalStrip h6 {
   color: #fff;
 }
 
-.filterSidebar{
-  min-width: 250px;
-  max-width: 250px;
-  -webkit-box-flex: 0!important;
-    -ms-flex-positive: 0!important;
-    flex-grow: 0!important;
-    position: sticky !important;
+.filterSidebar {
+  min-width: 200px;
+  max-width: 200px;
+  -webkit-box-flex: 0 !important;
+  -ms-flex-positive: 0 !important;
+  flex-grow: 0 !important;
+  position: sticky !important;
 }
 
 .header-container {
-    position: relative;
-    border-right: none!important;
-    padding-top: 0;
+  position: relative;
+  border-right: none !important;
+  padding-top: 0;
 }
 .vertical-filters-filters {
-    padding-top: 20px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #e9e9ed;
-    position: relative;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e9e9ed;
+  position: relative;
 }
 
 .search-leftContainer ul {
-    margin: 0;
+  margin: 0;
 }
 
 .search-leftContainer li {
-    font-size: 14px;
-    margin-bottom: 7px;
+  font-size: 14px;
+  margin-bottom: 7px;
 }
 .gender-label {
-    cursor: pointer;
-    color: #282c3f;
-    font-weight: 500;
+  cursor: pointer;
+  color: #282c3f;
+  font-weight: 500;
 }
 .common-customRadio {
-    position: relative;
-    cursor: pointer;
-    vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
 }
 
-.MuiFormControlLabel-root{
+.MuiFormControlLabel-root {
   margin-bottom: 0px !important;
-
 }
 
 .MuiIconButton-root {
   padding: 0px !important;
 }
 
-.MuiRadio-root{
-  color: #F44248 !important;
+.MuiRadio-root {
+  color: #f44248 !important;
 }
 
-.genderFilter{
+.genderFilter {
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #e9e9ed;
 }
 
 .makeStyles-formControl-19 {
-    margin: 0px !important;
+  margin: 0px !important;
 }
 
-/* .MuiFormGroup-root{
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
-} */
+.MuiFormGroup-root {
+  padding-left: 5px !important;
+}
 
 .MuiCheckbox-colorSecondary.Mui-checked {
-    color: #F44248 !important;
+  color: #f44248 !important;
 }
 
-#colorFilter, #priceFilter{
+#colorFilter,
+#priceFilter {
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #e9e9ed;
 }
 
-.productsContainer{
+.productsContainer {
   width: 100%;
   padding: 10px;
   border-left: 1px solid #e9e9ed;
   border-top: 1px solid #e9e9ed;
-
 }
 
-.productFilter{
+.productFilter {
   font-size: 10px !important;
 }
 
-.productFilter .MuiSelect-selectMenu{
+.productFilter .MuiSelect-selectMenu {
   font-size: 12px !important;
 }
 
-
- .MuiInputBase-input {
+.MuiInputBase-input {
   padding: 2px !important;
   padding-right: 24px !important;
-
 }
 
-.filterSortArea{
+.filterSortArea {
   margin-bottom: 15px !important;
 }
 
-.allProducts{
+.allProducts {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   border-top: 1px solid #e9e9ed;
-margin: 5px;
+  margin: 5px !important;
+}
+
+.makeStyles-root-160 {
+  margin: 0px !important;
+  padding-left: 10px;
+  margin-bottom: 10px !important;
+  margin-top: 20px !important;
+}
+
+.makeStyles-formControl-67 {
+  margin: 0px !important;
+  padding-left: 5px !important;
+  height: 300px !important;
+  overflow-x: inherit;
+  width: 100%;
 }
