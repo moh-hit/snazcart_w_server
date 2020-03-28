@@ -10,7 +10,7 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import { red } from "@material-ui/core/colors";
-import Sticky from "react-sticky-el";
+
 
 
 class Footer extends Component {
@@ -50,7 +50,7 @@ class Footer extends Component {
     ));
     return (
       <>
-<Sticky>
+
           <div className="footer-newsletter container-custom justify-content-between">
           <p className="align-text-bottom">Sign up for our newsletters to receive latest offers and products. We don't spam.
 
@@ -222,7 +222,7 @@ class Footer extends Component {
           </div>
           
         </footer>
-        </Sticky>
+       
 
       </>
     );
